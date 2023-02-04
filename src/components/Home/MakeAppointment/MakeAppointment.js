@@ -49,7 +49,7 @@ const MakeAppointment = () => {
               </div>
             </div>
           </div>
-          <div className='lg:ml-[5rem]'>
+          <div className='lg:ml-[8rem]'>
             <div>
               <div className="form-control w-full max-w-xs">
                 <label className="label">
