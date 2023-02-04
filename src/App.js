@@ -5,8 +5,15 @@ import { Nav } from "./components/Nav/Nav";
 function App() {
   return (
     <div>
-      <Nav />
-      <Home />
+      <div>
+        <div>
+          <Nav />
+        </div>
+        <div>
+          <Home />
+        </div>
+      </div>
+
       <Footer />
     </div>
   );

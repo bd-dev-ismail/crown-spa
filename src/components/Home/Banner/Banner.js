@@ -1,17 +1,31 @@
 import React from "react";
+import "./Banner.css";
+import bannerImg from "../../../assets/lotus-spa-template-hero-img-bg-.png";
 
 const Banner = () => {
   return (
-    <div className="bg-primary h-[65vh] lg:h-[70vh] text-white flex justify-center items-center">
-      <div className="lg:flex flex-row justify-center items-center gap-16">
-        <h3 className="font-bold text-3xl lg:text-5xl text-center mb-5 lg:mb-0">
-          IMMERSE IN LUXURY, BEAUTY <br /> AND WELLNESS TO <br /> DESTRESS.
+    <div
+      style={{
+        backgroundImage: `url(${bannerImg})`,
+
+        backgroundPosition: "bottom right",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "64vw auto",
+      }}
+      className="lg:h-[100vh] relative h-[92vh] bg-[#cba590] "
+    >
+      <div className="absolute top-[18%] left-5 lg:left-[18%]">
+        <h4 className="font-sm font-bold uppercase text-white">
+          WELCOME TO Crown Spa & Salon
+        </h4>
+        <h3 className="lg:text-6xl text-4xl my-10 font-bold text-white">
+          Revitalize your mind <br /> body, and soul
         </h3>
-        <img
-          src="https://avasalonspa.in/wp-content/uploads/2021/08/lotus-spa-template-hero-img-bg-1024x864.png"
-          alt=""
-          className="w-[448px]"
-        />
+        <p className="text-white font-bold text-xl">
+          At Crown Spa & Salon, we offer a <br /> wide range of Ayurvedic
+          massage and body treatments for <br /> optimal well-being.
+        </p>
+
       </div>
     </div>
   );
