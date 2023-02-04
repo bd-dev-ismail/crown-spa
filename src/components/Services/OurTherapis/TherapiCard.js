@@ -4,8 +4,8 @@ import img1 from '../../../assets/lotus-spa-template-hero-img-bg-.png';
 import img2 from '../../../assets/services-img-4.jpg';
 const TherapiCard = () => {
     return (
-      <div className="flex justify-around items-center">
-        <div className="card card-compact  h-[42rem] w-full lg:w-[28rem] bg-base-100 shadow-xl">
+      <div className="lg:flex justify-around items-center">
+        <div className="card card-compact  h-[42rem] mb-16 lg:mb-0 w-full lg:w-[28rem] bg-base-100 shadow-xl">
           <figure>
             <img src={img1} alt="Shoes" className="h-[25rem] w-full" />
           </figure>

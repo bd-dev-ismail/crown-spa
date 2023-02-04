@@ -1,6 +1,7 @@
 import React from "react";
 import OurTherapis from "./OurTherapis/OurTherapis";
 import ServiceBanner from "./ServiceBanner/ServiceBanner";
+import ServiceOffer from "./ServiceOffer/ServiceOffer";
 
 const Services = () => {
   return (
@@ -9,7 +10,10 @@ const Services = () => {
         <ServiceBanner />
       </div>
       <div className="my-[5rem]">
-        <OurTherapis/>
+        <OurTherapis />
+      </div>
+      <div className="my-[5rem]">
+        <ServiceOffer />
       </div>
     </div>
   );

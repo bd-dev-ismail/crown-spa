@@ -8,7 +8,6 @@ export const Nav = () => {
     <div class="px-4 py-5  mx-auto sm:max-w-xl  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
         <div class="flex items-center">
-          
           <Link
             to="/"
             aria-label="Company"
@@ -36,26 +35,17 @@ export const Nav = () => {
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Link
-                to="/"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
+              <Link to="/" class="font-bold hover:text-primary ">
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                to="/services"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
+              <Link to="/services" class="font-bold hover:text-primary ">
                 Services
               </Link>
             </li>
             <li>
-              <Link
-                to="/contact"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
+              <Link to="/contact" class="font-bold hover:text-primary ">
                 Contact Us
               </Link>
             </li>
