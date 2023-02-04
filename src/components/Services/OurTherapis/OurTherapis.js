@@ -1,4 +1,5 @@
 import React from "react";
+import MessageCenter from "./MessageCenter";
 
 const OurTherapis = () => {
   return (
@@ -12,6 +13,9 @@ const OurTherapis = () => {
           A haven of tranquillity for the body, mind, and soul. Experience
           rejuvenation, peace, <br /> and refreshment.
         </h3>
+      </div>
+      <div>
+        <MessageCenter />
       </div>
     </div>
   );

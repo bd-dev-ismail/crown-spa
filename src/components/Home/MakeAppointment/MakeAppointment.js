@@ -49,7 +49,7 @@ const MakeAppointment = () => {
               </div>
             </div>
           </div>
-          <div className='lg:ml-[8rem]'>
+          <div className="lg:ml-[8rem]">
             <div>
               <div className="form-control w-full max-w-xs">
                 <label className="label">
@@ -83,7 +83,7 @@ const MakeAppointment = () => {
               </div>
               <div className="my-6">
                 <button className="btn btn-primary text-white btn-outline">
-                  Save Up to 50% Today
+                  20% off for New Visitors
                 </button>
               </div>
             </div>
