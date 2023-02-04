@@ -57,13 +57,15 @@ const BestService = () => {
                 className="text-2xl py-3 font-semibold text-primary
           "
               >
-                Balinese Massage
+                Hot and cold stone therapy
               </h4>
               <p className="text-secondary">
-                It involves gentle to medium pressure and long strokes to
-                promote relaxation and increase circulation. It also
-                incorporates the use of natural oils and spices to nourish and
-                revitalize the skin.
+                This helps to relax tense muscles, improve circulation, and
+                relieve pain. The cold stones, usually made of marble, are used
+                to help reduce inflammation, soothe skin and reduce pain. The
+                alternating use of hot and cold stones in massage therapy helps
+                to balance the body and mind, leaving you feeling refreshed and
+                rejuvenated.
               </p>
               <div className="divider"></div>
             </div>
@@ -75,13 +77,14 @@ const BestService = () => {
                 className="text-2xl py-3 font-semibold text-primary
           "
               >
-                Balinese Massage
+                Swedish Massage
               </h4>
               <p className="text-secondary">
-                It involves gentle to medium pressure and long strokes to
-                promote relaxation and increase circulation. It also
-                incorporates the use of natural oils and spices to nourish and
-                revitalize the skin.
+                Swedish massage is a popular choice for those seeking a relaxing
+                and therapeutic massage experience. It can help relieve stress,
+                improve sleep, and reduce muscle pain and tension. It is also
+                often used as a complementary therapy to complement other
+                medical treatments and improve overall health and well-being.
               </p>
               <div className="divider"></div>
             </div>
