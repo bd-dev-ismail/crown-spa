@@ -5,7 +5,7 @@ module.exports = {
     themes: [
       {
         crowntheme: {
-          primary: "#205B4F",
+          primary: "#002244",
           secondary: "#7F7C76",
           accent: "#3A4256",
 

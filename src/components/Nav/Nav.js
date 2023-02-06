@@ -53,7 +53,7 @@ export const Nav = () => {
         </div>
         <ul class="flex items-end hidden space-x-8 lg:flex">
           <li>
-            <Link to="/" class="btn btn-primary btn-outline">
+            <Link to="/" class="btn btn-primary text-white">
               Book Now
             </Link>
           </li>

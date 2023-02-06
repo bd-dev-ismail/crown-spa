@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import img from "../../../assets/homepage-service-img.jpg";
 import bg from "../../../assets/section-grad-bg.svg";
 const BestService = () => {
@@ -19,9 +20,12 @@ const BestService = () => {
               The best of <br /> services
             </h3>
             <p className="text-secondary text-sm my-7">
-              Consequat elementum, dolor egestas at faucibus dictumst at
-              ultrices auctor gravida neque, dolor molestie ut fames porttitor
-              egestas quisque bibendum felis nascetur maecenas et.
+              The services include facials, massages, and body treatments. Crown
+              spa and salon also offers memberships, Happy Spa Hours, Combo spa
+              & massage offers at reasonable prices. Spa & salon also have a
+              team of experienced and professional stylists, estheticians, and
+              massage therapists provide personalized care to meet the specific
+              needs of each individual customer
             </p>
             <button className="btn text-white btn-primary mt-5">
               Book Now <FaLongArrowAltRight className="ml-3" />{" "}
@@ -33,10 +37,8 @@ const BestService = () => {
           <div>
             <div>
               <div className="divider"></div>
-
-              <h6 className="font-bold text-sm text-primary">01</h6>
               <h4
-                className="text-2xl py-3 font-semibold text-primary
+                className="text-2xl pb-3 font-semibold text-primary
           "
               >
                 Balinese Massage
@@ -47,14 +49,17 @@ const BestService = () => {
                 incorporates the use of natural oils and spices to nourish and
                 revitalize the skin.
               </p>
+              <Link
+                to="/"
+                className="text-sm mt-3 flex items-center font-semibold text-primary"
+              >
+                Book Now <FaLongArrowAltRight className="ml-4" />
+              </Link>
               <div className="divider"></div>
             </div>
             <div>
-              <div className="divider"></div>
-
-              <h6 className="font-bold text-sm text-primary">01</h6>
               <h4
-                className="text-2xl py-3 font-semibold text-primary
+                className="text-2xl pb-3 font-semibold text-primary
           "
               >
                 Hot and cold stone therapy
@@ -67,14 +72,17 @@ const BestService = () => {
                 to balance the body and mind, leaving you feeling refreshed and
                 rejuvenated.
               </p>
+              <Link
+                to="/"
+                className="text-sm mt-3 flex items-center font-semibold text-primary"
+              >
+                Book Now <FaLongArrowAltRight className="ml-4" />
+              </Link>
               <div className="divider"></div>
             </div>
             <div>
-              <div className="divider"></div>
-
-              <h6 className="font-bold text-sm text-primary">01</h6>
               <h4
-                className="text-2xl py-3 font-semibold text-primary
+                className="text-2xl pb-3 font-semibold text-primary
           "
               >
                 Swedish Massage
@@ -86,6 +94,12 @@ const BestService = () => {
                 often used as a complementary therapy to complement other
                 medical treatments and improve overall health and well-being.
               </p>
+              <Link
+                to="/"
+                className="text-sm mt-3 flex items-center font-semibold text-primary"
+              >
+                Book Now <FaLongArrowAltRight className="ml-4" />
+              </Link>
               <div className="divider"></div>
             </div>
           </div>

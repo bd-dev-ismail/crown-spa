@@ -9,7 +9,7 @@ const ExperticesArea = () => {
         <h5 className="font-bold uppercase text-4xl lg:text-5xl text-primary mb-4">
           Expertices Area
         </h5>
-        <h3 className="font-bold text-xl text-primary">
+        <h3 className="font-bold text-xl text-secondary">
           A haven of tranquillity for the body, mind, and soul. Experience
           rejuvenation, peace, <br /> and refreshment.
         </h3>

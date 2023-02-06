@@ -12,7 +12,7 @@ const Banner = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "64vw auto",
       }}
-      className="lg:h-[100vh] relative h-[92vh] bg-[#cba590] "
+      className="lg:h-[68vh] relative h-[92vh] bg-[#cba590] "
     >
       <div className="absolute top-[18%] left-5 lg:left-[18%]">
         <h4 className="font-sm font-bold uppercase text-white">

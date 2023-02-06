@@ -2,15 +2,10 @@ import React from 'react';
 import { FaEye, FaHandsWash } from "react-icons/fa";
 const OurMission = () => {
     return (
-      <div className="bg-[#cba590]">
-        <div>
-          <h3 className="text-center font-bold text-4xl text-white pt-8">
-            Our Goals
-          </h3>
-        </div>
+      <div className="bg-[#002244]">
         <div className="lg:px-16 px-4 text-center py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
-            <div className='flex justify-center items-center'>
+            <div className="flex justify-center items-center">
               <FaHandsWash className="text-white text-4xl font-bold" />
             </div>
             <h3 className="text-white text-4xl font-bold my-4">About Us</h3>
@@ -28,9 +23,8 @@ const OurMission = () => {
             </p>
           </div>
           <div>
-            <div className='flex justify-center items-center'>
-
-            <FaEye className="text-white text-4xl font-bold" />
+            <div className="flex justify-center items-center">
+              <FaEye className="text-white text-4xl font-bold" />
             </div>
             <h3 className="text-white text-4xl font-bold my-4">Vission</h3>
             <p className="text-sm text-gray-200">
@@ -45,9 +39,8 @@ const OurMission = () => {
           </div>
 
           <div>
-            <div className='flex justify-center items-center'>
-
-            <FaHandsWash className="text-white text-4xl font-bold" />
+            <div className="flex justify-center items-center">
+              <FaHandsWash className="text-white text-4xl font-bold" />
             </div>
             <h3 className="text-white text-4xl font-bold my-4">Mission</h3>
             <p className="text-sm text-gray-200">
