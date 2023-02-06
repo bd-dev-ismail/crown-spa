@@ -1,4 +1,5 @@
 import React from "react";
+import MakeAppointment from "../Home/MakeAppointment/MakeAppointment";
 import OurTherapis from "./OurTherapis/OurTherapis";
 import ServiceBanner from "./ServiceBanner/ServiceBanner";
 import ServiceOffer from "./ServiceOffer/ServiceOffer";
@@ -14,6 +15,9 @@ const Services = () => {
       </div>
       <div className="my-[5rem]">
         <ServiceOffer />
+      </div>
+      <div className="my-[5rem]">
+        <MakeAppointment />
       </div>
     </div>
   );

@@ -9,6 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Brygada 1918', serif;
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 
 code {

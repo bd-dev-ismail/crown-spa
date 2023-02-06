@@ -29,16 +29,16 @@ const MakeAppointment = () => {
             </p>
           </div>
           <div className="divider"></div>
-          <div className="flex items-center mt-5 justify-between">
+          <div className="lg:flex items-center  justify-between">
             <div>
               <p className="text-primary font-semibold flex gap-3 items-center">
                 <FaRegClock /> Opening Hours
               </p>
               <p className="text-secondary pl-7 font-semibold">
-               Days: Mon - Sun <br /> Time: 10:00 AM – 09:00 PM
+                Days: Mon - Sun <br /> Time: 10:00 AM – 09:00 PM
               </p>
             </div>
-            <div className="">
+            <div className="mt-4 lg:mt-0">
               <p className="text-primary font-semibold flex gap-3 items-center">
                 <FaPhoneAlt /> Contact
               </p>
@@ -55,7 +55,7 @@ const MakeAppointment = () => {
           <div>
             <div className="form-control w-full max-w-xs">
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text font-bold">Name</span>
               </label>
               <input
                 type="text"
@@ -65,7 +65,7 @@ const MakeAppointment = () => {
             </div>
             <div className="form-control my-5 w-full max-w-xs">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text font-bold">Email</span>
               </label>
               <input
                 type="email"
@@ -75,7 +75,7 @@ const MakeAppointment = () => {
             </div>
             <div className="form-control w-full max-w-xs">
               <label className="label">
-                <span className="label-text">Phone</span>
+                <span className="label-text font-bold">Phone</span>
               </label>
               <input
                 type="number"
@@ -84,7 +84,7 @@ const MakeAppointment = () => {
               />
             </div>
             <div className="my-6">
-              <button style={{color: "#fff"}} className="btn btn-primary ">
+              <button style={{ color: "#fff" }} className="btn btn-primary ">
                 Book an appointment
               </button>
             </div>
