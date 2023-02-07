@@ -3,7 +3,25 @@ import { Link } from "react-router-dom";
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const menu = (
+    <>
+      <li>
+        <Link to="/" class="font-bold text-black hover:text-primary ">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link to="/services" class="font-bold text-black  hover:text-primary ">
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact" class="font-bold text-black  hover:text-primary ">
+          Contact Us
+        </Link>
+      </li>
+    </>
+  );
   return (
     <div class="px-4 py-5  mx-auto sm:max-w-xl  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
@@ -33,29 +51,7 @@ export const Nav = () => {
               Crown Spa & Salon
             </span>
           </Link>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <Link to="/" class="font-bold text-black hover:text-primary ">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/services"
-                class="font-bold text-black  hover:text-primary "
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                class="font-bold text-black  hover:text-primary "
-              >
-                Contact Us
-              </Link>
-            </li>
-          </ul>
+          <ul class="flex items-center hidden space-x-8 lg:flex">{menu}</ul>
         </div>
         <ul class="flex items-end hidden space-x-8 lg:flex">
           <li>
@@ -135,19 +131,10 @@ export const Nav = () => {
                 </div>
                 <nav>
                   <ul class="space-y-4  ">
+                    {menu}{" "}
                     <li>
-                      <Link to="/" class="font-bold text-black">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" class="font-bold text-black">
-                        Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" class="font-bold text-black">
-                        Contact Us
+                      <Link to="/" class="btn btn-primary text-white">
+                        Book Now
                       </Link>
                     </li>
                   </ul>
