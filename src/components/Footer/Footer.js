@@ -59,7 +59,7 @@ const Footer = () => {
               Contacts
             </p>
             <div>
-              <div className="flex items-center my-3">
+              <div className="flex items-start my-3">
                 <FaLocationArrow className="text-xl text-white mr-5" />
                 <p>
                   2nd Floor, Road No. 12, <br /> Owner's Pride Building, Banjara
@@ -123,7 +123,7 @@ const Footer = () => {
                 <Link to="/services">Services</Link>
               </div>
               <div>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact">About Us</Link>
               </div>
             </div>
           </div>
