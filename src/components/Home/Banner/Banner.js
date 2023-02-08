@@ -1,20 +1,20 @@
 import React from "react";
 import "./Banner.css";
-import bannerImg from "../../../assets/lotus-spa-template-hero-img-bg-.png";
+import bannerImg from "../../../assets/crownspa-template-hero-bg--removebg-preview.png";
 
 const Banner = () => {
   return (
-    <div
+    <div id="banner"
       style={{
         backgroundImage: `url(${bannerImg})`,
 
         backgroundPosition: "bottom right",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "64vw auto",
+        backgroundSize: "44vw auto",
       }}
-      className="lg:h-[68vh] relative h-[92vh] bg-[#cba590] "
+      className="lg:h-[68vh] relative h-[92vh] bg-primary "
     >
-      <div className="absolute top-[18%] left-5 lg:left-[18%]">
+      <div className="absolute top-[8%] lg:top-[18%] left-5 lg:left-[18%]">
         <h4 className="font-sm font-bold uppercase text-white">
           WELCOME TO Crown Spa & Salon
         </h4>
@@ -25,7 +25,6 @@ const Banner = () => {
           At Crown Spa & Salon, we offer a <br /> wide range of Ayurvedic
           massage and body treatments for <br /> optimal well-being.
         </p>
-
       </div>
     </div>
   );
