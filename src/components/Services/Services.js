@@ -4,10 +4,14 @@ import Membership from "./Membership/Membership";
 import OurTherapis from "./OurTherapis/OurTherapis";
 import ServiceBanner from "./ServiceBanner/ServiceBanner";
 import ServiceOffer from "./ServiceOffer/ServiceOffer";
-
+import { Helmet } from "react-helmet";
 const Services = () => {
   return (
     <div className="bg-white">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Crown Spa & Salon -Services</title>
+      </Helmet>
       <div>
         <ServiceBanner />
       </div>

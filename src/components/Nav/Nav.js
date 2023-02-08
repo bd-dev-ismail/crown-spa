@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/spa and salon(1).png";
 import logo1 from "../../assets/spa and salon(11).png";
 export const Nav = () => {
@@ -7,19 +7,34 @@ export const Nav = () => {
   const menu = (
     <>
       <li>
-        <Link to="/" class="font-bold text-black hover:text-primary ">
+        <NavLink
+          to="/home"
+          className={({ isActive }) =>
+            isActive ? "font-bold text-primary" : "font-bold text-black"
+          }
+        >
           Home
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/services" class="font-bold text-black  hover:text-primary ">
+        <NavLink
+          to="/services"
+          className={({ isActive }) =>
+            isActive ? "font-bold text-primary" : "font-bold text-black"
+          }
+        >
           Services
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/contact" class="font-bold text-black  hover:text-primary ">
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "font-bold text-primary" : "font-bold text-black"
+          }
+        >
           Contact Us
-        </Link>
+        </NavLink>
       </li>
     </>
   );
