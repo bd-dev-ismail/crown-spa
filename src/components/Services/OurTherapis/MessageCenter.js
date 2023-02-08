@@ -22,9 +22,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 3000/- 60 Min</p>
           <p className="font-semibold text-primary">Rs. 4000/- 90 Min</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -46,9 +49,12 @@ const MessageCenter = () => {
             Rs. 35,000/- 90 Mins
           </p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -81,9 +87,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 2,800/- 60 Mins</p>
           <p className="font-semibold text-primary">Rs. 3,800/- 90 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -103,9 +112,12 @@ const MessageCenter = () => {
           <p className="font-bold text-xl text-primary mb-3">Pricing:</p>
           <p className="font-semibold text-primary my-2">Rs. 3,000/- 60 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -125,9 +137,12 @@ const MessageCenter = () => {
           <p className="font-bold text-xl text-primary mb-3">Pricing:</p>
           <p className="font-semibold text-primary my-2">Rs. 3,200/- 60 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -150,9 +165,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 2,000/- 60 Mins</p>
           <p className="font-semibold text-primary my-2">Rs. 3,000/- 90 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -176,9 +194,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 2,500/- 60 Mins</p>
           <p className="font-semibold text-primary my-2">Rs. 3,500/- 90 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -202,9 +223,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 3,000/- 60 Mins</p>
           {/* <p className="font-semibold text-primary my-2">Rs. 3,500/- 90 Mins</p> */}
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -225,9 +249,12 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">Rs. 3,000/- 60 Mins</p>
           {/* <p className="font-semibold text-primary my-2">Rs. 3,500/- 90 Mins</p> */}
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -253,9 +280,12 @@ const MessageCenter = () => {
           </p>
           <p className="font-semibold text-primary my-2">Rs. 2,200/- 90 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -278,9 +308,12 @@ const MessageCenter = () => {
           </p>
           <p className="font-semibold text-primary my-2">Rs. 2,200/- 90 Mins</p>
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -301,11 +334,14 @@ const MessageCenter = () => {
           <p className="font-semibold text-primary my-2">
             Rs. 1,900/- 60 Mins{" "}
           </p>
-          
+
           <div className="mt-5">
-            <button className="btn-primary btn text-white">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import img from "../../../assets/homepage-service-img.jpg";
 import bg from "../../../assets/section-grad-bg.svg";
 const BestService = () => {
@@ -27,9 +27,13 @@ const BestService = () => {
               massage therapists provide personalized care to meet the specific
               needs of each individual customer
             </p>
-            <button className="btn text-white btn-primary mt-5">
-              Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-            </button>
+
+            <a
+              href="#appointment"
+              className="text-sm w-[10rem]   btn  btn-primary mt-5 text-white flex items-center font-semibold "
+            >
+              Book Now <FaLongArrowAltRight className="ml-4" />
+            </a>
           </div>
           <div>
             <img src={img} alt="" className="rounded-2xl" />
@@ -49,12 +53,12 @@ const BestService = () => {
                 incorporates the use of natural oils and spices to nourish and
                 revitalize the skin.
               </p>
-              <Link
-                to="/"
+              <a
+                href="#appointment"
                 className="text-sm mt-3 flex items-center font-semibold text-primary"
               >
                 Book Now <FaLongArrowAltRight className="ml-4" />
-              </Link>
+              </a>
               <div className="divider"></div>
             </div>
             <div>
@@ -72,12 +76,12 @@ const BestService = () => {
                 to balance the body and mind, leaving you feeling refreshed and
                 rejuvenated.
               </p>
-              <Link
-                to="/"
+              <a
+                href="#appointment"
                 className="text-sm mt-3 flex items-center font-semibold text-primary"
               >
                 Book Now <FaLongArrowAltRight className="ml-4" />
-              </Link>
+              </a>
               <div className="divider"></div>
             </div>
             <div>
@@ -94,12 +98,12 @@ const BestService = () => {
                 often used as a complementary therapy to complement other
                 medical treatments and improve overall health and well-being.
               </p>
-              <Link
-                to="/"
+              <a
+                href="#appointment"
                 className="text-sm mt-3 flex items-center font-semibold text-primary"
               >
                 Book Now <FaLongArrowAltRight className="ml-4" />
-              </Link>
+              </a>
               <div className="divider"></div>
             </div>
           </div>

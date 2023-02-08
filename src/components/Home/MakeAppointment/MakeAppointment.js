@@ -3,7 +3,10 @@ import { FaLocationArrow, FaRegClock, FaPhoneAlt } from "react-icons/fa";
 
 const MakeAppointment = () => {
   return (
-    <div className="mx-auto pt-[5rem] sm:max-w-xl px-4 md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div
+      id="appointment"
+      className="mx-auto pt-[5rem] sm:max-w-xl px-4 md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16  ">
         <div>
           <h5 className="text-sm font-bold  uppercase text-[#53A292]">
@@ -23,10 +26,18 @@ const MakeAppointment = () => {
             <p className="text-primary font-semibold flex gap-3 items-center">
               <FaLocationArrow /> Our Location
             </p>
-            <p className="text-secondary pl-7 font-semibold">
-              2nd Floor, Road No. 12, Owner's Pride Building, Banjara Hills,
-              Hyderabad, Telangana 500003
-            </p>
+            <div className="mt-2">
+              <a
+                href="https://www.google.com/maps/dir//Crown+Spa+%26+Salon+2nd+Floor+Road+No.+12,+Owner's+Pride+Building+Banjara+Hills,+Hyderabad,+Telangana+500003,+India/@17.4078351,78.4424775,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcb977d5cfc603b:0x8d7c82ab8b19ca7b"
+                className="text-secondary font-semibold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                2nd Floor, Road No. 12, Owner's Pride Building, Banjara Hills,{" "}
+                <br />
+                Hyderabad, Telangana 500003
+              </a>
+            </div>
           </div>
           <div className="divider"></div>
           <div className="lg:flex items-center  justify-between">
@@ -42,12 +53,18 @@ const MakeAppointment = () => {
               <p className="text-primary font-semibold flex gap-3 items-center">
                 <FaPhoneAlt /> Contact
               </p>
-              <p className="text-secondary pl-7 font-semibold">
-                Phone: +919000151837 / +919000151836
-              </p>
-              <p className="text-secondary pl-7 font-semibold">
+              <h3 className="text-secondary pl-7 font-semibold">
+                Phone: <a href="tel:+919000151837">+919000151837</a> /
+                <a href="tel:+919000151836">+919000151836</a>
+              </h3>
+
+              <a
+                href="mailto:crownspansalon@gmail.com"
+                rel="noopener noreferrer"
+                className="text-secondary pl-7 font-semibold"
+              >
                 Email: crownspansalon@gmail.com
-              </p>
+              </a>
             </div>
           </div>
         </div>

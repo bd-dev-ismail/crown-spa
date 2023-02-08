@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../assets/spa and salon(1).png";
+import logo1 from "../../assets/spa and salon(11).png";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menu = (
@@ -32,30 +33,20 @@ export const Nav = () => {
             title="Company"
             class="inline-flex items-center mr-8"
           >
-            <svg
-              class="w-8 hover:text-primary text-black"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span class="ml-2 text-xl font-bold tracking-wide text-black uppercase">
-              Crown Spa & Salon
-            </span>
+            <img
+              style={{
+                maxWidth: "40%",
+              }}
+              src={logo1}
+              alt=""
+              className=""
+            />
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">{menu}</ul>
         </div>
         <ul class="flex items-end hidden space-x-8 lg:flex">
           <li>
-            <Link to="/" class="btn btn-primary text-white">
+            <Link to="/contact" class="btn btn-primary text-white">
               Book Now
             </Link>
           </li>

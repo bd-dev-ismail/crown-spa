@@ -44,9 +44,12 @@ const TherapiCard = () => {
               Pricing: Rs. 8,699 120 Mins (Each)
             </p>
             <div className="card-actions justify-center">
-              <button className="btn-primary btn text-white">
-                Book Now <FaLongArrowAltRight className="ml-3" />{" "}
-              </button>
+              <a
+                href="#appointment"
+                className="text-sm w-[10rem] btn  btn-primary mt-5 text-white flex items-center font-semibold "
+              >
+                Book Now <FaLongArrowAltRight className="ml-4" />
+              </a>
             </div>
           </div>
         </div>

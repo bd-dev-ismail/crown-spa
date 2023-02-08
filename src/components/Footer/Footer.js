@@ -24,9 +24,19 @@ const Footer = () => {
             </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-white ">
-                Our mission—through the vehicle of conscious commerce and
-                community building—is to remind each other of the Brilliant
-                Light of Love—that dwells within every human being.
+                A crown spa and salon offers a wide range of beauty and wellness
+                services for its customers. The services include facials,
+                massages, and body treatments. Crown spa and salon also offers
+                memberships, Happy Spa Hours, Combo spa & massage offers at
+                reasonable prices.
+              </p>
+              <p className="text-sm text-white  mt-4">
+                {" "}
+                Spa & salon also have a team of experienced and professional
+                stylists, estheticians, and massage therapists provide
+                personalized care to meet the specific needs of each individual
+                customer. Crown Spa and salon is a luxury place, providing
+                high-end services, in a comfortable and relaxing atmosphere.
               </p>
             </div>
           </div>
@@ -61,21 +71,33 @@ const Footer = () => {
             <div>
               <div className="flex items-start my-3">
                 <FaLocationArrow className="text-xl text-white mr-5" />
-                <p>
-                  2nd Floor, Road No. 12, <br /> Owner's Pride Building, Banjara
-                  Hills, <br />
+                <a
+                  href="https://www.google.com/maps/dir//Crown+Spa+%26+Salon+2nd+Floor+Road+No.+12,+Owner's+Pride+Building+Banjara+Hills,+Hyderabad,+Telangana+500003,+India/@17.4078351,78.4424775,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcb977d5cfc603b:0x8d7c82ab8b19ca7b"
+                  className="text-white font-semibold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  2nd Floor, Road No. 12, Owner's Pride Building, Banjara Hills,{" "}
+                  <br />
                   Hyderabad, Telangana 500003
-                </p>
+                </a>
               </div>
               <div className="flex items-center my-3">
                 <FaEnvelopeOpenText className="text-xl text-white mr-5" />
-                <p>crownspansalon@gmail.com</p>
+                <a
+                  href="mailto:crownspansalon@gmail.com"
+                  rel="noopener noreferrer"
+                >
+                  crownspansalon@gmail.com
+                </a>
               </div>
               <div className="flex items-center my-3">
                 <FaBlenderPhone className="text-xl text-white mr-5" />
-                <p>
-                  +919000151837 <br /> +919000151836
-                </p>
+
+                <span>
+                  <a href="tel:+919000151837">+919000151837</a> <br />
+                  <a href="tel:+919000151836">+919000151836</a>
+                </span>
               </div>
             </div>
           </div>
