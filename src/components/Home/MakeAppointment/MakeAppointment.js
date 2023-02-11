@@ -1,9 +1,13 @@
 import React from "react";
 import { FaLocationArrow, FaRegClock, FaPhoneAlt } from "react-icons/fa";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
+import { useForm } from "@formspree/react";
+import { toast } from "react-toastify";
 const MakeAppointment = () => {
-  const handleBtn = () => {
-    Swal.fire("Thanks For Subbmit!", "You recived your mail!", "success");
+  const [state, handleSubmit] = useForm("xeqwalrn");
+
+  const notify = () => {
+    toast("Thanks!We recived your mail!");
   };
   const services = [
     { name: "Balinese Massage" },
@@ -84,7 +88,7 @@ const MakeAppointment = () => {
           </div>
         </div>
         <div className="lg:ml-[8.5rem] ">
-          <form action="https://formspree.io/f/xeqwalrn"  method="POST">
+          <form onSubmit={handleSubmit}>
             <div className="form-control w-full max-w-xs">
               <label className="label">
                 <span className="label-text font-bold">Name</span>
@@ -124,12 +128,20 @@ const MakeAppointment = () => {
               <label className="label">
                 <span className="label-text font-bold">Services</span>
               </label>
-              <select required className="select select-bordered">
+              <select
+                name="service"
+                required
+                className="select select-bordered"
+              >
                 <option disabled selected>
                   Select Your Service Pack
                 </option>
                 {services?.map((item, idx) => (
-                  <option  className="text-sm font-bold" key={idx}>
+                  <option
+                    value={item.name}
+                    className="text-sm font-bold"
+                    key={idx}
+                  >
                     {item.name}
                   </option>
                 ))}
@@ -139,17 +151,20 @@ const MakeAppointment = () => {
               <label className="label">
                 <span className="label-text font-bold">Your Message</span>
               </label>
-              <textarea required
+              <textarea
+                required
+                name="message"
                 className="textarea textarea-bordered h-24"
                 placeholder="Feel Free to add text"
               ></textarea>
             </div>
             <div className="my-6">
               <button
-                onClick={handleBtn}
                 type="submit"
                 style={{ color: "#fff" }}
                 className="btn btn-primary "
+                disabled={state.submitting}
+                onClick={notify}
               >
                 Book an appointment
               </button>
