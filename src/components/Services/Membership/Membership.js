@@ -110,9 +110,9 @@ const Membership = () => {
                     </span>
                   </li>
                 </ul>
-                <button className="px-4 py-2 mt-4 font-semibold uppercase border rounded-lg md:mt-12 sm:py-3 sm:px-8 border-primary">
+                <a href="#appointment" className="px-4 py-2 mt-4 font-semibold uppercase border rounded-lg md:mt-12 sm:py-3 sm:px-8 border-primary">
                   Subscribe
-                </button>
+                </a>
               </div>
             ))}
           </div>

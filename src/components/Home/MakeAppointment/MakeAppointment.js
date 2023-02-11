@@ -1,7 +1,22 @@
 import React from "react";
 import { FaLocationArrow, FaRegClock, FaPhoneAlt } from "react-icons/fa";
-
+import Swal from "sweetalert2";
 const MakeAppointment = () => {
+  const handleBtn = () => {
+    Swal.fire("Thanks For Subbmit!", "You recived your mail!", "success");
+  };
+  const services = [
+    { name: "Balinese Massage" },
+    { name: "Hot & Cold Stone Therapy" },
+    { name: "Therapies For Stress Relief" },
+    { name: "Body Scrubs" },
+    { name: "African Cocoa Butter" },
+    { name: "Dry Therapy" },
+    { name: "Body Polish" },
+    { name: "Relax Detox Pack" },
+    { name: "Foot Reflexology" },
+    { name: "Specific Therapy" },
+  ];
   return (
     <div
       id="appointment"
@@ -68,24 +83,28 @@ const MakeAppointment = () => {
             </div>
           </div>
         </div>
-        <div className="lg:ml-[8.5rem]">
-          <div>
+        <div className="lg:ml-[8.5rem] ">
+          <form action="https://formspree.io/f/xeqwalrn"  method="POST">
             <div className="form-control w-full max-w-xs">
               <label className="label">
                 <span className="label-text font-bold">Name</span>
               </label>
               <input
                 type="text"
+                name="name"
+                required
                 placeholder="Enter Your Full Name"
                 className="input input-bordered w-full max-w-xs"
               />
             </div>
-            <div className="form-control my-5 w-full max-w-xs">
+            <div className="form-control my-3w-full max-w-xs">
               <label className="label">
                 <span className="label-text font-bold">Email</span>
               </label>
               <input
                 type="email"
+                name="email"
+                required
                 placeholder="Enter Your Email"
                 className="input input-bordered w-full max-w-xs"
               />
@@ -96,16 +115,46 @@ const MakeAppointment = () => {
               </label>
               <input
                 type="number"
+                name="phone"
                 placeholder="Enter Your Phone Number"
                 className="input input-bordered w-full max-w-xs"
               />
             </div>
+            <div className="form-control my-3 w-full max-w-xs">
+              <label className="label">
+                <span className="label-text font-bold">Services</span>
+              </label>
+              <select required className="select select-bordered">
+                <option disabled selected>
+                  Select Your Service Pack
+                </option>
+                {services?.map((item, idx) => (
+                  <option  className="text-sm font-bold" key={idx}>
+                    {item.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="form-control  w-full max-w-xs">
+              <label className="label">
+                <span className="label-text font-bold">Your Message</span>
+              </label>
+              <textarea required
+                className="textarea textarea-bordered h-24"
+                placeholder="Feel Free to add text"
+              ></textarea>
+            </div>
             <div className="my-6">
-              <button style={{ color: "#fff" }} className="btn btn-primary ">
+              <button
+                onClick={handleBtn}
+                type="submit"
+                style={{ color: "#fff" }}
+                className="btn btn-primary "
+              >
                 Book an appointment
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>

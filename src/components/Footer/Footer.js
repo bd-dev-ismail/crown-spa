@@ -30,14 +30,7 @@ const Footer = () => {
                 memberships, Happy Spa Hours, Combo spa & massage offers at
                 reasonable prices.
               </p>
-              <p className="text-sm text-white  mt-4">
-                {" "}
-                Spa & salon also have a team of experienced and professional
-                stylists, estheticians, and massage therapists provide
-                personalized care to meet the specific needs of each individual
-                customer. Crown Spa and salon is a luxury place, providing
-                high-end services, in a comfortable and relaxing atmosphere.
-              </p>
+              
             </div>
           </div>
 
